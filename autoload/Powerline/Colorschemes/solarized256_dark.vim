@@ -19,7 +19,7 @@ call Pl#Hi#Allocate({
 	\ 'violet'         : [61, 0x6c71c4],
 	\ 'blue'           : [33, 0x268bd2],
 	\ 'cyan'           : [37, 0x2aa198],
-	\ 'green'          : [64, 0x859900],
+	\ 'Blue3'          : [12, 0x0000ff],
 	\ })
 
 let g:Powerline#Colorschemes#solarized256_dark#colorscheme= Pl#Colorscheme#Init([
@@ -29,7 +29,7 @@ let g:Powerline#Colorschemes#solarized256_dark#colorscheme= Pl#Colorscheme#Init(
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['base03', 'green'],
+		\ 'n': ['base03', 'Blue3'],
 		\ 'i': ['base03', 'base3'],
 		\ 'v': ['base3', 'yellow'],
 		\ 'r': ['base3', 'magenta'],
@@ -131,7 +131,7 @@ let g:Powerline#Colorschemes#solarized256_dark#colorscheme= Pl#Colorscheme#Init(
 		\ }),
   \
   \ Pl#Hi#Segments(['status'], {
-		\ 'n': ['green', 'base02'],
+		\ 'n': ['Blue3', 'base02'],
 		\ 'N': ['base01', 'base02'],
     \ }),
 \ ])
